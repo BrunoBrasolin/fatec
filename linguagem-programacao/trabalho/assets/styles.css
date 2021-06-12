@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  z-index: 99999999;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.link-svg {
+  color: transparent;
+}
+
+.link-svg:hover {
+  color: transparent;
+}
+
+#page-title {
+  color: #fff;
+}
+
+#jumbotron {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#bg-chamativo {
+  height: 100%;
+  width: 100%;
+}
+
+#jumbotron > a {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 0;
+}
+
+#confirmPasswordText {
+  display: none;
+}
+
+nav,
+footer {
+  background-color: #1d1a2e;
+  color: #fff;
+  padding: 15px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer .col-md-2 ul li:first-child {
+  font-weight: bold;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+footer li a:hover {
+  color: #593feb;
+}
+
+.infos a {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#partners {
+  background-image: url("images/background-footer.png");
+  padding: 100px 45px;
+  background-size: cover;
+}
+
+#partners h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  color: #593feb;
+  font-weight: bold;
+}
+
+#partners img {
+  cursor: pointer;
+}
+
+.terms {
+  display: flex;
+}
+
+nav .collapse nav,
+nav .collapse nav ul {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 950px) {
+  #jumbotron {
+    height: auto;
+    width: auto;
+  }
+  #jumbotron > a {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav #social {
+    display: none;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  nav .collapse nav,
+  nav .collapse nav ul {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.alert {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
