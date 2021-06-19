@@ -1,32 +1,40 @@
 package com.bruno.tabuada
 
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
+import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
 
+class MainActivity : AppCompatActivity () {
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    lateinit var resultadoTabuada: TextView
+    lateinit var botaoCalcular: Button
+    var numeroTabuada: Int? = null
+
+    override fun onCreate ( savedInstanceState : Bundle? ) {
+        super .onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        resultadoTabuada = findViewById(R.id.txtResultado)
+        botaoCalcular = findViewById(R.id.btnSortear)
+        botaoCalcular.setOnClickListener {
+            numeroTabuada = findViewById<EditText>(R.id.txtNumero).text.toString().toIntOrNull()
+            CalcularTabuada()
+        }
     }
 
-    fun CalcularTabuada(view: View){
-        val editText = findViewById<EditText>(R.id.editText)
-        val tabuadaText = findViewById<TextView>(R.id.textView)
-        val numeroString: String = editText.text.toString()
-        val numero: Int = Integer.parseInt(numeroString)
-        var result: Int
-        val tabuada = StringBuffer()
+    fun CalcularTabuada (){
+        var calculo = 0
+        var resultado = ""
 
-
-        for(i in 1..10){
-            result = i * numero
-            tabuada.append("$numero x $i = $result \n\n")
+        numeroTabuada?.let{
+            for (i in 1..10) {
+                calculo = it * i
+                resultado += "$numeroTabuada X $i = $calculo \n"
+            }
         }
-        tabuadaText.setText(tabuada);
 
+        resultadoTabuada.text = resultado
     }
 }
