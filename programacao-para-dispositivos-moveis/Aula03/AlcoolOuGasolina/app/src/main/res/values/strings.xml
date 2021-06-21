@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Alcool Ou Gasolina</string>
+    <string name="subtitle">Saiba a melhor opção de abastecimentoo seu carro!</string>
+    <string name="alcool_input">Preço do álcool</string>
+    <string name="gasolina_input">Preço da gasolina</string>
+</resources>
