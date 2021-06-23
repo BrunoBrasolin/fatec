@@ -3,4 +3,5 @@
     <string name="subtitle">Saiba a melhor opção de abastecimentoo seu carro!</string>
     <string name="alcool_input">Preço do álcool</string>
     <string name="gasolina_input">Preço da gasolina</string>
+    <string name="button_text">Calcular</string>
 </resources>

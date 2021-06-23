@@ -6,13 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#014e91"
-        android:
+        app:titleTextColor="#ffffff"
         app:title="@string/app_name"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,6 +22,7 @@
         android:id="@+id/alcoolGasolina"
         android:layout_width="wrap_content"
         android:layout_height="216dp"
+        android:contentDescription="@string/app_name"
         android:src="@drawable/alcool_gasolina"
         app:layout_constraintTop_toBottomOf="@id/toolbar"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,7 +50,8 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:inputType="numberDecimal"
-        android:hint="@string/alcool_input" />
+        android:hint="@string/alcool_input"
+        android:autofillHints="0"   />
 
 
     <EditText
@@ -64,7 +65,8 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:inputType="numberDecimal"
-        android:hint="@string/gasolina_input" />
+        android:hint="@string/gasolina_input"
+        android:autofillHints="0" />
 
     <Button
         android:id="@+id/button"
@@ -76,7 +78,7 @@
         android:layout_marginTop="12dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:text="Button"
+        android:text="@string/button_text"
         android:backgroundTint="#014e91"/>
 
     <TextView
