@@ -1,7 +1,6 @@
 # Álcool ou Gasolina
 
-Aplicativo de tarefas para guardar itens que o usuário digitar, mesmo após sair do aplicativo.
-Projeto feito com a intenção de estudar React Native Async Storage.
+Aplicativo que compara o valor do álcool com o da gasolina e informa o usuário qual o mais vantajoso.
 
 ---
 
