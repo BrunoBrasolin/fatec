@@ -1,6 +1,6 @@
 # Álcool ou Gasolina
 
-Aplicativo que compara o valor do álcool com o da gasolina e informa o usuário qual o mais vantajoso.
+Aplicativo que compara o valor do álcool com o da gasolina e informa ao usuário qual o mais vantajoso.
 
 ---
 
