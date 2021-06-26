@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Short Bio</string>
+    <string name="sobre">Sobre</string>
+    <string name="formacao">Formação</string>
+    <string name="experiencia">Experiência</string>
+    <string name="objetivo">Objetivo</string>
+    <string name="nome">Nome: Bruno Brasolin</string>
+    <string name="idade">Idade: 20 anos</string>
+    <string name="formacao_descricao">Sexto Ciclo da Fatec Praia Grande</string>
+    <string name="primeira_experiencia">Abril 2020/Março 2021 - Desenvolvedor Full Stack PHP | Ótima Ideia</string>
+    <string name="segunda_experiencia">Abril 2021/Presente - Desenvolvedor Front End | KBR TEC</string>
+    <string name="objetivo_descricao">Entrar na área de desenvolvimento mobile</string>
+</resources>
