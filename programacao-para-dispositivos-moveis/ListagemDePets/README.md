@@ -6,4 +6,4 @@ Aplicativo que faz a listagem de pets.
 
 ## Foto do aplicativo
 
-![App](https://raw.githubusercontent.com/BrunoBrasolin/fatec/main/programacao-para-dispositivos-moveis/ShortBio/readme-images/app.png)
+![App](https://raw.githubusercontent.com/BrunoBrasolin/fatec/main/programacao-para-dispositivos-moveis/ListagemDePets/readme-images/app.png)
