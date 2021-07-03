@@ -1,6 +1,6 @@
-# Álcool ou Gasolina
+# Short Bio
 
-Aplicativo que compara o valor do álcool com o da gasolina e informa ao usuário qual o mais vantajoso.
+Aplicativo para mostrar uma short bio do usuário.
 
 ---
 
