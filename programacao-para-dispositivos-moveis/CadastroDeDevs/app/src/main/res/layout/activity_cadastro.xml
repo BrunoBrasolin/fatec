@@ -25,9 +25,10 @@
         android:inputType="textPersonName"
         android:id="@+id/edtNome"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="52dp"
         app:layout_constraintTop_toBottomOf="@id/imgFoto"
         android:layout_marginTop="32dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
         />
     <EditText
         android:layout_width="match_parent"
@@ -38,6 +39,7 @@
         app:layout_constraintTop_toBottomOf="@+id/edtNome"
         android:layout_marginTop="24dp"
         android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
         />
     <RadioGroup
         android:layout_width="wrap_content"
@@ -68,7 +70,9 @@
         android:id="@+id/spnSenioridade"
         app:layout_constraintTop_toBottomOf="@id/rdgStack"
         app:layout_constraintStart_toStartOf="@+id/rdgStack"
-        android:layout_marginTop="24dp"/>
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"/>
     <Switch
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -77,13 +81,14 @@
         app:layout_constraintStart_toStartOf="@+id/rdgStack"
         android:text="Empregado atualmente?"
         android:checked="false"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"/>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnSalvar"
         android:backgroundTint="#FFC107"
-        android:drawableLeft="@drawable/ic_floppy_disk"
         android:drawablePadding="8dp"
         android:text="Salvar"
         app:layout_constraintTop_toBottomOf="@id/swtEmpregado"
