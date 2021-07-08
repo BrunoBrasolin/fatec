@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Short Bio 2</string>
+    <string name="sobre_title">Sobre mim</string>
+    <string name="sobre_content">Bruno Brasolin, 20 anos, desenvolvedor front end</string>
+    <string name="formacao_title">Formação</string>
+    <string name="formacao_content">6° ciclo da Fatec</string>
+    <string name="experiencia_title">Experiência</string>
+    <string name="experiencia1_content">04/2020 – 03/2021 | Ótima ideia</string>
+    <string name="experiencia2_content">04/2021 – Presente | KBR TEC</string>
+</resources>

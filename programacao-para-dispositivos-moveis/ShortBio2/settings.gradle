@@ -1,0 +1,2 @@
+rootProject.name = "Short Bio 2"
+include ':app'
