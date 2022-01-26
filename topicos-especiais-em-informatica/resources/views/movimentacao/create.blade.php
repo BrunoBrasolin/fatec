@@ -40,6 +40,6 @@
 
 @section('script')
   <script>
-    $('#valor').mask('000.000.000,00', {reverse: true});
+    $('#valor').mask('000000000.00', {reverse: true});
   </script>
 @endsection

@@ -21,9 +21,12 @@
     </thead>
     <tbody>
       @foreach($movimentacoes as $movimentacao)
+        @php
+          $movimentacao->valor = floatval($movimentacao->valor);
+        @endphp
         <tr class="{{$movimentacao->tipo == 1 ? "positive" : "negative"}}">
           <td data-label="Nome">{{$movimentacao->nome}}</td>
-          <td data-label="Valor">R$ {{number_format(floatval($movimentacao->valor), 2)}}</td>
+          <td data-label="Valor">R$ {{number_format($movimentacao->valor, 2)}}</td>
           <td data-label="Tipo de movimentação">{{$movimentacao->tipo == 1 ? "Entrada" : "Saída"}}</td>
           <td data-label="Data de criação">{{$movimentacao->data_criacao}}</td>
           <td data-label="Última atualização">{{$movimentacao->data_atualizacao}}</td>
